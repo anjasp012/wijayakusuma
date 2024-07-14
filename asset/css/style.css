@@ -4,6 +4,7 @@ body{
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
+    overflow-x: hidden;
 }
 
 .container{
@@ -796,6 +797,7 @@ section#pengumuman .card-pengumuman .card-body .card-text{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.3px;
+    margin-bottom: 30px;
 }
 @media (min-width: 992px) {
     .header-profile .header-title{
@@ -808,11 +810,51 @@ section#pengumuman .card-pengumuman .card-body .card-text{
         letter-spacing: 0.3px;
     }
 }
+.header-profile .owl-carousel-galeri{
+    min-width: 100%;
+}
+@media (min-width: 992px) {
+    .header-profile .owl-carousel-galeri{
+        min-width: 100vw;
+    }
+}
+
 .header-profile .owl-carousel-galeri .item img{
-    width: 255px;
-    height: 253px;
+    height: 80px;
     flex-shrink: 0;
     object-fit: cover;
+    border-radius: 2px;
+}
+@media (min-width: 992px) {
+    .header-profile .owl-carousel-galeri .item img{
+        height: 253px;
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
+
+.header-profile .owl-carousel-galeri .item .text-item{
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.316px; /* 133.333% */
+    letter-spacing: 0.219px;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .header-profile .owl-carousel-galeri .item .text-item{
+        color: #FFF;
+        font-size: 17.487px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23.316px; /* 133.333% */
+        letter-spacing: 0.219px;
+        text-align: center;
+    }
+
 }
 /* header-profile */
 
@@ -1686,8 +1728,12 @@ footer .footer-right .footer-right-title{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.3px;
+    margin-bottom: 32px;
 }
-footer .footer-right .footer-right-links .link a{
+footer .footer-right .footer-right-links li.link{
+    padding: 8px 0px;
+}
+footer .footer-right .footer-right-links li.link .tag-link{
     color: #373F41;
     font-size: 14px;
     font-style: normal;
@@ -1695,6 +1741,10 @@ footer .footer-right .footer-right-links .link a{
     line-height: 18px; /* 128.571% */
     letter-spacing: 0.2px;
     text-decoration: none;
+}
+footer .footer-right .sosial-media a img{
+    width: 32px;
+    height: 32px;
 }
 footer .footer-bottom{
     color: #0C101A;
