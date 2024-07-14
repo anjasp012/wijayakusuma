@@ -807,7 +807,12 @@ section#pengumuman .card-pengumuman .card-body .card-text{
         line-height: normal;
         letter-spacing: 0.3px;
     }
-
+}
+.header-profile .owl-carousel-galeri .item img{
+    width: 255px;
+    height: 253px;
+    flex-shrink: 0;
+    object-fit: cover;
 }
 /* header-profile */
 
