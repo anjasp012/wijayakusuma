@@ -57,7 +57,7 @@ body{
 
 /* header beranda */
 .header-beranda{
-    background-image: url('/asset/images/header-beranda.png');
+    background-image: url('../images/header-beranda.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -475,14 +475,14 @@ section#beranda-galeri .btn-lebih-lanjut{
 
 /* header-berita */
 .header-berita{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 200px;
     background-position: center;
 }
 @media (min-width: 992px) {
     .header-berita{
-        background-image: url('/asset/images/header-berita.jpg');
+        background-image: url('../images/header-berita.jpg');
         background-size: cover;
         min-height: 355px;
         background-position: center;
@@ -657,14 +657,14 @@ section#berita-terbaru .card-berita .card-body .card-link{
 
 /* header-pengumuman */
 .header-pengumuman{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 300px;
     background-position: center;
 }
 @media (min-width: 992px) {
     .header-pengumuman{
-        background-image: url('/asset/images/header-berita.jpg');
+        background-image: url('../images/header-berita.jpg');
         background-size: cover;
         height: 526px;
         background-position: center;
@@ -768,14 +768,14 @@ section#pengumuman .card-pengumuman .card-body .card-text{
 
 /* header-profile */
 .header-profile{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 300px;
     background-position: center;
 }
 @media (min-width: 992px) {
     .header-profile{
-        background-image: url('/asset/images/header-berita.jpg');
+        background-image: url('../images/header-berita.jpg');
         background-size: cover;
         height: 526px;
         background-position: center;
@@ -1120,14 +1120,14 @@ section#ruang-kelas .table tr th{
 
 /* header-galeri */
 .header-galeri{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     min-height: 200px;
     background-position: center;
 }
 @media (min-width: 992px) {
     .header-galeri{
-        background-image: url('/asset/images/header-berita.jpg');
+        background-image: url('../images/header-berita.jpg');
         background-size: cover;
         min-height: 300px;
         background-position: center;
@@ -1298,7 +1298,7 @@ section#perkemahan img{
 
 /* header-hubungi-kami */
 .header-hubungi-kami{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 264px;
     background-position: center;
@@ -1392,7 +1392,7 @@ section#map iframe{
 
 /* header-about */
 .header-about{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 264px;
     background-position: center;
@@ -1496,7 +1496,7 @@ section#sejarah .section-body{
 
 /* header-ekstrakulikuler */
 .header-ekstrakulikuler{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 264px;
     background-position: center;
@@ -1612,14 +1612,14 @@ section#ekstrakulikuler .card-ekstrakulikuler table{
 
 /* header-video */
 .header-video{
-    background-image: url('/asset/images/header-berita.jpg');
+    background-image: url('../images/header-berita.jpg');
     background-size: cover;
     height: 300px;
     background-position: center;
 }
 @media (min-width: 992px) {
     .header-video{
-        background-image: url('/asset/images/header-berita.jpg');
+        background-image: url('../images/header-berita.jpg');
         background-size: cover;
         height: 352px;
         background-position: center;
